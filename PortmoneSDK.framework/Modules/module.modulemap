@@ -1,0 +1,11 @@
+framework module PortmoneSDK {
+  umbrella header "PortmoneSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module PortmoneSDK.Swift {
+    header "PortmoneSDK-Swift.h"
+    requires objc
+}
